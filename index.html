@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricomida</title>
+    <!--googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <!--jquery 3.6.0-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--bootstrap 5.1.1-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="Assets /css/style.css">
+    <!--javascript-->
+    <script src="./Assets /js/pagina_1.js"></script>
+</head>
+
+<body>
+    <!--navs-->
+    <nav class="navbar navbar-expand-lg bg-dark ms-auto  ">
+        <div class="container-fluid">
+            <a class="menu navbar-brand ps-5 ms-5" href="#">RICOMIDA</a>
+            </button>
+            <div class=" submenu collapse navbar-collapse pe-5 me-5 text-ligth" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Receta</a>
+                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="mb-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <img class=img_1 src="./Assets /img/principal.jpg" alt="">
+            </div>
+            <div class="col">
+                <h1 class="display-4">pizza al estilo chicago con espinacas y chamipiñones</h1>
+                <hr>
+                <p class="sub_titulo">110 min / 6 a 8 porciones</p>
+                <button  type="button" class="me-1">enviar por correo</button> 
+                <button class="ms-3" type="button">añadir afavorito</button>
+            </div>
+            
+            </div>
+         </div>    
+    </section>
+    
+     <!--carousel-->    
+  
+    <section>
+        <div class="col-12 bg-ligth  rounded  text-center p-1 m-1 ms-auto">
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div id="blogcarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button class="btn btn-dark" type="button" data-bs-target="#blogcarousel" data-bs-slide-to="0" class="active" aria-current="true"   aria-label=" slide 1"></button>
+                    <button class="btn btn-dark" type="button" data-bs-target="#blogcarousel" data-bs-slide-to="1" arial-label="slide 2"></button>
+                    </div>   
+                    <div class="carousel-inner p-3 text-center">  
+                        <div class="carousel-item active"></div> 
+                            <div class="row">
+                                <div class="col-12 col-md-3"><img src="./Assets /img/slider-1.png" alt=""></div>
+                                <div class="col-12 col-md-3"><img src="./Assets /img/slider-2.png" alt=""></div>
+                                <div class="col-12 col-md-3"><img src="./Assets /img/slider-3.png" alt=""></div>
+                                <div class="col-12 col-md-3"><img src="./Assets /img/slider-4.png" alt=""></div>
+                            </div>                 
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12  col-md-3"><img src="./Assets /img/slider-5.png" alt=""></div>
+                                    <div class="col-12  col-md-3"><img src="./Assets /img/slider-6.png" alt=""></div>
+                                    <div class="col-12 col-md-3"><img src="./Assets /img/slider-7.png" alt=""></div>
+                                    <div class="col-12 col-md-3"><img src="./Assets /img/slider-8.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    
+    <!--ingredientes y preparacion-->
+    <section>   
+        <div class="container">
+            <div class="row">
+                <div class="col m-1">
+                  <h5>INGREDIENTES</h5>
+                  <hr>
+                    <ol class="ingrediente">
+                        <li>masa</li>
+                        <li>20 gr de levadura seca instantanea</li>
+                        <li>1 cucharada de azucar</li>
+                        <li>500 mlo agua tibia</li>
+                        <li>100 ml de aceite vegetal</li>
+                        <li>4 cucharadas de aceite de oliva</li>
+                        <li>65 gr harina de maiz fina (chuchoca)</li>
+                        <li>2 cucharaditas de sal</li>
+                        <li>625 gr harina</li>
+                        <li>salsa</li>
+                        <li class="pb-4">5 cucharada de aceite de oliva</li>
+                        <li>1/2 cebolla picada en cubo finos</li>
+                        <li>2 cucharaditas de sal</li>
+                        <li>3 cucharadas de Orégano Gourmet</li>
+                        <li>1 1/2 cucharadas de Albahaca Gourmet</li>
+                        <li>2 tarros de tomates en cubos al natural</li>
+                        <li>2 cucharaditas de azucar</li>
+                        <li>relleno</li>
+                        <li class="pb-4">1/2 cebolla, en cubo</li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <h5>PREPARACION</h5>
+                    <hr>
+                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis et rem fugit nulla, ab iste porro delectus earum pariatur eveniet minus non deleniti minima ipsam alias consequatur ratione itaque.</p>
+                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt laudantium blanditiis animi voluptate minima fuga consequuntur repellendus! Iure odio sed ut placeat quis vero minima quod asperiores provident quibusdam.</p>
+                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic vitae fuga distinctio unde nulla illo delectus eum quae aperiam adipisci odit, eius quaerat inventore sapiente ipsa soluta harum laudantium!</p>
+                    <p>4. Lorem ipsum dolor sit.</p>
+                    <p>5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, illum fugiat consequatur quo alias inventore nostrum suscipit quos vel, repudiandae minus perferendis nam. Earum eligendi adipisci, odio delectus ab recusandae.</p>
+                    <p>6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reprehenderit, et commodi veritatis itaque necessitatibus in voluptates doloremque! Impedit dignissimos tenetur esse aut quae culpa recusandae id similique suscipit natus.</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <hr>
+
+    <!--RECETA-->
+    <section class="text-center">
+        <h2 class="mt-5">RECETAS RELACIONADAS</h2>
+        <div class="row row-col-md m-5 p-5">
+            <div class="col">
+              <div class="card">
+                <img src="./Assets /img/recipe-card-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi sit omnis rerum nostrum itaque explicabo mollitia sunt deleniti facere? Impedit dolorum rerum optio laudantium excepturi? Ducimus itaque accusamus excepturi omnis!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card ">
+                <img src="./Assets /img/recipe-card-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">TIRAMISÚ</h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore deserunt culpa, quaerat placeat quisquam, ducimus perferendis perspiciatis explicabo mollitia, consequatur numquam omnis. Voluptatum praesentium id odit fuga aut quae at?</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./Assets /img/recipe-card-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PLATEADA</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, exercitationem! Non numquam tenetur voluptatibus, labore omnis vel ipsa iste quo repellat ratione, nisi dolorum, alias autem ab quos aspernatur reprehenderit?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!--ENCUESTA-->
+    <section>
+        <div data-tf-widget="WlcVxhCC" data-tf-hide-headers data-tf-hide-footer style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+    </section>
+
+    <footer>
+        <section >
+            <div class="container-fluid bg-dark text-center">
+                <h2 class="footer p-3">ricomida</h2>
+            </div>
+        </section>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>

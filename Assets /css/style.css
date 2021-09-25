@@ -1,0 +1,30 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+/*menu*/
+.menu{
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    color: white;
+}
+.submenu{
+    font-size:25px ;
+    color: white;
+}
+/*titulo*/
+.img_1{
+    width:600px;
+}
+.sub_titulo{
+    font-size:30px ;
+}
+
+li {
+    list-style: none;
+}
+.footer{
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    color: white;
+}
