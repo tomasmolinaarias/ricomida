@@ -6,23 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricomida</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--googlefonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
+        rel="stylesheet">
     <!--bootstrap 5.1.1-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="Assets /css/style.css">
- 
+
 </head>
 
 <body class="text-center none-md">
     <!--navs-->
-    <nav class="navbar navbar-expand-lg bg-dark ms-auto  ">
-        <div class="container-fluid">
-            <a class="menu navbar-brand ps-5 ms-5 display-3" href="#">RICOMIDA</a>
+    <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container">
+            <a class="menu navbar-brand  display-3 text" href="#">RICOMIDA</a>
             </button>
             <div class=" submenu collapse navbar-collapse pe-5 me-5 text-ligth" id="navbarNavAltMarkup">
                 <div class="menucito navbar-nav ms-auto">
@@ -36,81 +37,83 @@
     </nav>
 
     <section id="inicio" class="mb-4 mt-4 ">
-        <div class="container-fluid container-md">
+        <div class="container">
             <div class="row">
-                <div class="col">
-                <img class=img_1 src="./Assets /img/principal.jpg" alt="">
+                <div class=" col-md">
+                    <img class="img_1 col-xs-12 col-sm  " src="./Assets /img/principal.jpg" alt="">
+                </div>
+                <div class="col text-start">
+                    <h1 class="display-4">pizza al estilo chicago con espinacas y chamipiñones</h1>
+                    <hr>
+                    <p class="sub_titulo">110 min / 6 a 8 porciones</p>
+                    <button type="button" class="me-1" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="envio en correo electronico">enviar por correo</button>
+                    <button class="ms-3" type="button" data-bs-toggle="tooltip" data-bs-placement="right"
+                        title="añade a favorito">añadir afavorito</button>
+                </div>
+
             </div>
-            <div class="col">
-                <h1 class="display-4">pizza al estilo chicago con espinacas y chamipiñones</h1>
-                <hr>
-                <p class="sub_titulo">110 min / 6 a 8 porciones</p>
-                <button  type="button" class="me-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="envio en correo electronico">enviar por correo</button> 
-                <button class="ms-3" type="button" data-bs-toggle="tooltip" data-bs-placement="right" title="añade a favorito">añadir afavorito</button>
-            </div>
-            
-            </div>
-         </div>    
+        </div>
     </section>
 
     <!--carousel-->
     <section>
         <div class="col-12 p-1 m-1 ms-auto d-none d-md-block ">
-          <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
 
-            <div class="carousel-indicators radius pt-5 mt-5">
-                <button class="active bg-secondary rounded-circle" aria-current="true" aria-label="Slide 1"
-                    data-bs-slide-to="0" data-bs-target="#carouselExampleSlidesOnly" type="button"></button>
-                <button class="bg-secondary rounded-circle" aria-label="Slide 2" data-bs-slide-to="1"
-                    data-bs-target="#carouselExampleSlidesOnly" type="button"></button>
+                <div class="carousel-indicators rounded-circle pt-5 mt-5">
+                    <button class="active bg-secondary rounded-circle" aria-current="true" aria-label="Slide 1"
+                        data-bs-slide-to="0" data-bs-target="#carouselExampleSlidesOnly" type="button"></button>
+                    <button class="bg-secondary rounded-circle" aria-label="Slide 2" data-bs-slide-to="1"
+                        data-bs-target="#carouselExampleSlidesOnly" type="button"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-1.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-2.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-3.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-4.png" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-5.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-6.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-7.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-3">
+                                <img src="./Assets /img/slider-8.png" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-3">
-                            <img src="./Assets /img/slider-1.png" class="img-fluid" alt="...">
-                        </div>
-                        <div class="col-3">
-                            <img src="./Assets /img/slider-2.png" class="img-fluid" alt="...">
-                        </div>
-                        <div class="col-3">
-                            <img src="./Assets /img/slider-3.png" class="img-fluid" alt="...">
-                        </div>
-                        <div class="col-3">
-                          <img src="./Assets /img/slider-4.png" class="img-fluid" alt="...">
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-3">
-                        <img src="./Assets /img/slider-5.png" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-3">
-                        <img src="./Assets /img/slider-6.png" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-3">
-                        <img src="./Assets /img/slider-7.png" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-3">
-                      <img src="./Assets /img/slider-8.png" class="img-fluid" alt="...">
-                  </div>
-                </div>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
     <hr>
 
     <!--ingredientes y preparacion-->
-    <section id="receta">   
+    <section id="receta">
         <div class="container">
             <div class="row pt-4">
                 <div class="col ">
-                  <h5 id="titulo_ingrediente">INGREDIENTES</h5>
-                  <hr>
+                    <h5 id="titulo_ingrediente">INGREDIENTES</h5>
+                    <hr>
                     <ol id="ingrediente">
                         <li>masa</li>
                         <li>20 gr de levadura seca instantanea</li>
@@ -136,71 +139,90 @@
                 <div class="col">
                     <h5 id="titulo_preparacion">PREPARACION</h5>
                     <hr>
-                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis et rem fugit nulla, ab iste porro delectus earum pariatur eveniet minus non deleniti minima ipsam alias consequatur ratione itaque.</p>
-                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt laudantium blanditiis animi voluptate minima fuga consequuntur repellendus! Iure odio sed ut placeat quis vero minima quod asperiores provident quibusdam.</p>
-                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic vitae fuga distinctio unde nulla illo delectus eum quae aperiam adipisci odit, eius quaerat inventore sapiente ipsa soluta harum laudantium!</p>
+                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis et rem fugit
+                        nulla, ab iste porro delectus earum pariatur eveniet minus non deleniti minima ipsam alias
+                        consequatur ratione itaque.</p>
+                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt laudantium blanditiis
+                        animi voluptate minima fuga consequuntur repellendus! Iure odio sed ut placeat quis vero minima
+                        quod asperiores provident quibusdam.</p>
+                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic vitae fuga distinctio
+                        unde nulla illo delectus eum quae aperiam adipisci odit, eius quaerat inventore sapiente ipsa
+                        soluta harum laudantium!</p>
                     <p>4. Lorem ipsum dolor sit.</p>
-                    <p>5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, illum fugiat consequatur quo alias inventore nostrum suscipit quos vel, repudiandae minus perferendis nam. Earum eligendi adipisci, odio delectus ab recusandae.</p>
-                    <p>6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reprehenderit, et commodi veritatis itaque necessitatibus in voluptates doloremque! Impedit dignissimos tenetur esse aut quae culpa recusandae id similique suscipit natus.</p>
+                    <p>5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, illum fugiat consequatur
+                        quo alias inventore nostrum suscipit quos vel, repudiandae minus perferendis nam. Earum eligendi
+                        adipisci, odio delectus ab recusandae.</p>
+                    <p>6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reprehenderit, et commodi
+                        veritatis itaque necessitatibus in voluptates doloremque! Impedit dignissimos tenetur esse aut
+                        quae culpa recusandae id similique suscipit natus.</p>
                 </div>
             </div>
-        </div>    
+        </div>
     </section>
     <hr>
 
     <!--RECETA-->
-    <section id="nosotros"class=" text-center">
+    <section id="nosotros" class=" text-center">
         <h2 class="mt-5">RECETAS RELACIONADAS</h2>
-        <div class="row row-col-md m-5 p-5">
-            <div class="tarjetas col">
-              <div class="card">
-                <img src="./Assets /img/recipe-card-1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
-                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi sit omnis rerum nostrum itaque explicabo mollitia sunt deleniti facere? Impedit dolorum rerum optio laudantium excepturi? Ducimus itaque accusamus excepturi omnis!</p>
+        <div class="row row-cols-1 row-cols-md-3 ">
+            <div class="tarjetas col-xs-12 col-md">
+                <div class="card h-100">
+                    <img src="./Assets /img/recipe-card-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi sit omnis
+                            rerum nostrum itaque explicabo mollitia sunt deleniti facere? Impedit dolorum rerum optio
+                            laudantium excepturi? Ducimus itaque accusamus excepturi omnis!</p>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="tarjetas col">
-              <div class="card ">
-                <img src="./Assets /img/recipe-card-2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">TIRAMISÚ</h5>
-                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore deserunt culpa, quaerat placeat quisquam, ducimus perferendis perspiciatis explicabo mollitia, consequatur numquam omnis. Voluptatum praesentium id odit fuga aut quae at?</p>
+            <div class="tarjetas col-xs-12 co-md">
+                <div class="card  h-100">
+                    <img src="./Assets /img/recipe-card-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">TIRAMISÚ</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore deserunt
+                            culpa, quaerat placeat quisquam, ducimus perferendis perspiciatis explicabo mollitia,
+                            consequatur numquam omnis. Voluptatum praesentium id odit fuga aut quae at?</p>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="tarjetas col">
-              <div class="card">
-                <img src="./Assets /img/recipe-card-3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">PLATEADA</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, exercitationem! Non numquam tenetur voluptatibus, labore omnis vel ipsa iste quo repellat ratione, nisi dolorum, alias autem ab quos aspernatur reprehenderit?</p>
+            <div class="tarjetas col col-xs-12 col-md">
+                <div class="card h-100">
+                    <img src="./Assets /img/recipe-card-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PLATEADA</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                            exercitationem! Non numquam tenetur voluptatibus, labore omnis vel ipsa iste quo repellat
+                            ratione, nisi dolorum, alias autem ab quos aspernatur reprehenderit?</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
     </section>
 
     <!--ENCUESTA-->
     <section id="contacto">
-        <div data-tf-widget="WlcVxhCC" data-tf-hide-headers data-tf-hide-footer style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+        <div class="conatiner">
+            <div data-tf-widget="WlcVxhCC" data-tf-hide-headers data-tf-hide-footer style="width:100%;height:400px;"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
     </section>
 
     <footer>
-            <div class="container-fluid bg-dark text-center">
-                <h2 class="footer pt-3 pb-3">ricomida</h2>
-            </div>   
-     </footer>
+        <div class="container-fluid bg-dark text-center">
+            <h2 class="footer pt-3 pb-3">ricomida</h2>
+        </div>
+    </footer>
 
- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
- crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 
- <script src="./Assets /js/pagina_1.js"></script>
+    <script src="./Assets /js/pagina_1.js"></script>
 </body>
 
 </html>
